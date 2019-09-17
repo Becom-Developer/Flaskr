@@ -11,7 +11,7 @@ tutorial_01.md - flask チュートリアル (アプリの全体像)
 実装を開始するまえにアプリの全体像を把握しておく
 
 ```
-/home/user/Projects/Flasker
+flaskr_project
 ├── flaskr/
 │   ├── __init__.py
 │   ├── db.py
@@ -58,10 +58,11 @@ tutorial_01.md - flask チュートリアル (アプリの全体像)
 
 起動するスクリプトを用意する
 
-`/Flaskr/hello.py`
+`flaskr_project/hello.py`
 
 ```python
 from flask import Flask
+
 app = Flask(__name__)
 
 @app.route('/')
@@ -76,7 +77,7 @@ $ export FLASK_APP=hello.py && flask run
 (終了は control + c)
 ```
 
-これでも起動はするが WARNING 警告が出るので実行モードをしてする
+これでも起動はするが WARNING 警告が出るので実行モードを指定する
 
 ```
 $ export FLASK_APP=hello.py && export FLASK_ENV=development && flask run
@@ -88,10 +89,11 @@ $ export FLASK_APP=hello.py && export FLASK_ENV=development && flask run
 $ mkdir flaskr
 ```
 
-`/Flaskr/flaskr/__init__.py`
+`flaskr_project/flaskr/__init__.py`
 
 ```python
 from flask import Flask
+
 app = Flask(__name__)
 
 @app.route('/')
@@ -106,10 +108,11 @@ $ export FLASK_APP=flaskr && export FLASK_ENV=development && flask run
 
 ルーティングをアプリの仕様に合わせる
 
-`/Flaskr/flaskr/__init__.py`
+`flaskr_project/flaskr/__init__.py`
 
 ```python
 from flask import Flask
+
 app = Flask(__name__)
 
 @app.route('/hello')

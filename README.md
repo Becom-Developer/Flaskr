@@ -1,6 +1,6 @@
 # NAME
 
-Flaskr - flask フレームワーク学習用
+flaskr_project - flask フレームワーク学習用
 
 # SYNOPSIS
 
@@ -28,15 +28,11 @@ venv を使った実行方法ですすめる
 
 ```
 (プロジェクトのディレクトリへ)
-$ cd ~/github/Flaskr
+$ cd ~/github/flaskr_project
 $ python3.7 -m venv venv
 
 (有効化)
-$ source ~/github/Flaskr/venv/bin/activate
-
-$ cd ~/github/Flaskr
-$ python3.7 -m venv venv
-$ source ~/github/Flaskr/venv/bin/activate
+$ source ~/github/flaskr_project/venv/bin/activate
 
 (有効化された)
 (venv) $
@@ -57,8 +53,8 @@ $ which pip3.7
 /usr/local/bin/pip3.7
 
 (インストールしたいプロジェクトへ移動してインストール実行)
-$ cd ~/github/Flaskr
-$ source ~/github/Flaskr/venv/bin/activate
+$ cd ~/github/flaskr_project
+$ source ~/github/flaskr_project/venv/bin/activate
 
 (pip コマンドアップグレード)
 (venv) $ pip3.7 install pip --upgrade
@@ -103,9 +99,10 @@ EOF
 
 # TODO
 
-tutorial_01.md
+- tutorial_01.md
+- tutorial_02.md
 
 # SEE ALSO
 
-<https://docs.python.org/3/contents.html> - Pythonドキュメント
-<https://flask.palletsprojects.com/en/1.1.x/> - Flask
+- <https://docs.python.org/3/contents.html> - Pythonドキュメント
+- <https://flask.palletsprojects.com/en/1.1.x/> - Flask
