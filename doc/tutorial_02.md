@@ -1,6 +1,6 @@
 # NAME
 
-tutorial_01.md - flask チュートリアル (簡易的なルーティング)
+tutorial_02.md - flask チュートリアル (簡易的なルーティング)
 
 # SYNOPSIS
 

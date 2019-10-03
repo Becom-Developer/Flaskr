@@ -101,6 +101,7 @@ EOF
 
 - tutorial_01.md
 - tutorial_02.md
+- tutorial_03.md
 
 # SEE ALSO
 

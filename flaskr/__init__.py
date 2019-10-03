@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template
 app = Flask(__name__)
 
 @app.route('/hello')
@@ -19,8 +19,8 @@ def update(id):
 
 @app.route('/auth/register')
 def register():
-    return 'blog register'
+    return render_template('auth/register.html')
 
 @app.route('/auth/login')
 def login():
-    return 'auth login'
+    return render_template('auth/login.html')
